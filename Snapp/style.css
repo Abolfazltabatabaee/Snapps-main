@@ -1,0 +1,145 @@
+@font-face {
+    font-family: vazirLight;
+    src: url(font/Vazirmatn-ExtraLight.ttf);
+}
+@font-face {
+    font-family: vazirBold;
+    src: url(font/Vazirmatn-Bold.ttf);
+}
+:root{
+    --first-color: #0A2CDC;    
+    --seccend-color: rgb(26, 26, 26);
+    --snapp-color:#00D170;
+}
+/*Header*/
+.header{
+    padding: 30px 0;
+    font-family: vazirLight;
+    font-size: 17px;
+     background-color:rgb(255, 255, 255) ;
+}
+.header .cantainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  
+}
+.header nav ul {
+    display: flex;
+    gap:30px
+}
+.header nav ul li {
+    font-weight: 400;
+}
+.header nav ul li a {
+    transition: 0.13s ease;
+    text-decoration: none;
+    color: var(--seccend-color);
+    user-select: none;
+
+}
+.header nav ul li a:hover {
+color: var(--snapp-color);
+
+}
+
+/*Heros*/
+
+main .heros {
+    height: 90vh;
+    background-color: aliceblue;
+}
+main .heros .main-heros{
+    height: 70%;
+    display: flex;
+}
+main .heros .main-heros .img,
+main .heros .main-heros .content{
+    width: 50%;
+    height: 100%;
+}
+
+main .heros .main-heros .content{
+    background-color: var(--first-color);
+   
+}
+
+main .heros .main-heros .img{
+    background-image: url(https://web-cdn.snapp.ir/snapp-website/images/market/16-9.jpg);
+    background-size: cover;
+    user-select: none;
+
+}
+main .heros .main-heros .content .content-cantainer{
+    padding: 30px 220px 30px 30px;
+}
+
+main .heros .main-heros .content .content-cantainer h1{
+   text-align: right;
+    color: #fff;
+    font-size: 36px;
+    font-family: vazirBold;
+    margin-bottom: 20px;
+  
+    user-select: none;
+
+}
+main .heros .main-heros .content .content-cantainer p{
+    text-align: right;
+    color: #fff;
+    font-size: 22px;
+    font-family: vazirLight;
+    padding: 15px 0;
+    line-height: 2;
+    user-select: none;
+
+}
+main .heros .main-heros .content .content-cantainer .content-button{
+    margin-top: 32px;
+
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+main .heros .main-heros .content .content-cantainer .content-button .fbutton {
+    text-align: center;
+   
+    font-size: 14px;
+    font-family: vazirBold;
+    background-color: #FF661F;
+    padding: 0 8px;
+    border: 1px solid #FF661F;
+    border-radius: 9px;
+    height: 48px;
+    width: 220px;
+}
+main .heros .main-heros .content .content-cantainer .content-button .sbutton {
+    text-align: center;
+    font-family: vazirBold;
+    font-size: 14px;
+    background-color: #0A2CDC;
+    padding: 0 8px;
+    border: 1px solid #fff;
+    border-radius: 9px;
+    height: 48px;
+    width: 220px;
+    
+
+}
+main .heros .main-heros .content .content-cantainer .content-button .fbutton a ,
+main .heros .main-heros .content .content-cantainer .content-button .sbutton a {
+    text-decoration: none;
+    color: #fff;
+   
+ 
+}
+
+  
+
+ 
+
+
+
